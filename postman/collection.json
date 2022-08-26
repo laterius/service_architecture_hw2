@@ -20,11 +20,11 @@
               "    pm.expect(pm.response.code).to.eql(201)",
               "",
               "    var jsonData = pm.response.json();",
-              "    pm.expect(jsonData.username).to.eql(\"eznd\");",
-              "    pm.expect(jsonData.firstName).to.eql(\"Evgeniy\");",
-              "    pm.expect(jsonData.lastName).to.eql(\"Zinder\");",
-              "    pm.expect(jsonData.email).to.eql(\"me@eznd.ru\");",
-              "    pm.expect(jsonData.phone).to.eql(\"+79991112233\");",
+              "    pm.expect(jsonData.username).to.eql(\"dglukhov\");",
+              "    pm.expect(jsonData.firstName).to.eql(\"Denis\");",
+              "    pm.expect(jsonData.lastName).to.eql(\"Glukhov\");",
+              "    pm.expect(jsonData.email).to.eql(\"denis.glukhov@mail.ru\");",
+              "    pm.expect(jsonData.phone).to.eql(\"+1111111111\");",
               "});",
               ""
             ],
@@ -37,7 +37,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"username\": \"eznd\",\n    \"firstName\": \"Evgeniy\",\n    \"lastName\": \"Zinder\",\n    \"email\": \"me@eznd.ru\",\n    \"phone\": \"+79991112233\"\n}",
+          "raw": "{\n    \"username\": \"dglukhov\",\n    \"firstName\": \"Denis\",\n    \"lastName\": \"Glukhov\",\n    \"email\": \"denis.glukhov@mail.ru\",\n    \"phone\": \"+1111111111\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -70,11 +70,11 @@
               "    pm.expect(pm.response.code).to.eql(200)",
               "",
               "    var jsonData = pm.response.json();",
-              "    pm.expect(jsonData.username).to.eql(\"eznd\");",
-              "    pm.expect(jsonData.firstName).to.eql(\"Evgeniy\");",
-              "    pm.expect(jsonData.lastName).to.eql(\"Zinder\");",
-              "    pm.expect(jsonData.email).to.eql(\"me@eznd.ru\");",
-              "    pm.expect(jsonData.phone).to.eql(\"+79991112233\");",
+              "    pm.expect(jsonData.username).to.eql(\"dglukhov\");",
+              "    pm.expect(jsonData.firstName).to.eql(\"Denis\");",
+              "    pm.expect(jsonData.lastName).to.eql(\"Glukhov\");",
+              "    pm.expect(jsonData.email).to.eql(\"denis.glukhov@mail.ru\");",
+              "    pm.expect(jsonData.phone).to.eql(\"+1111111111\");",
               "});",
               ""
             ],
@@ -124,11 +124,11 @@
               "    pm.expect(pm.response.code).to.eql(200)",
               "",
               "    var jsonData = pm.response.json();",
-              "    pm.expect(jsonData.username).to.eql(\"eznd1253\");",
-              "    pm.expect(jsonData.firstName).to.eql(\"E\");",
-              "    pm.expect(jsonData.lastName).to.eql(\"Z\");",
-              "    pm.expect(jsonData.email).to.eql(\"me@eznd.ru\");",
-              "    pm.expect(jsonData.phone).to.eql(\"+79991112233\");",
+              "    pm.expect(jsonData.username).to.eql(\"dglukhov2\");",
+              "    pm.expect(jsonData.firstName).to.eql(\"D\");",
+              "    pm.expect(jsonData.lastName).to.eql(\"G\");",
+              "    pm.expect(jsonData.email).to.eql(\"denis.glukhov@mail.ru\");",
+              "    pm.expect(jsonData.phone).to.eql(\"+1111111111\");",
               "});",
               ""
             ],
@@ -141,7 +141,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"username\": \"eznd1253\",\n    \"firstName\": \"E\",\n    \"lastName\": \"Z\",\n    \"email\": \"me@eznd.ru\",\n    \"phone\": \"+79991112233\"\n}",
+          "raw": "{\n    \"username\": \"dglukhov2\",\n    \"firstName\": \"D\",\n    \"lastName\": \"G\",\n    \"email\": \"denis.glukhov@mail.ru\",\n    \"phone\": \"+1111111111\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -175,11 +175,11 @@
               "    pm.expect(pm.response.code).to.eql(200)",
               "",
               "    var jsonData = pm.response.json();",
-              "    pm.expect(jsonData.username).to.eql(\"eznd1253\");",
-              "    pm.expect(jsonData.firstName).to.eql(\"E\");",
-              "    pm.expect(jsonData.lastName).to.eql(\"Z\");",
-              "    pm.expect(jsonData.email).to.eql(\"otherme@eznd.ru\");",
-              "    pm.expect(jsonData.phone).to.eql(\"+79991112233\");",
+              "    pm.expect(jsonData.username).to.eql(\"dglukhov2\");",
+              "    pm.expect(jsonData.firstName).to.eql(\"D\");",
+              "    pm.expect(jsonData.lastName).to.eql(\"G\");",
+              "    pm.expect(jsonData.email).to.eql(\"otherme@mail.ru\");",
+              "    pm.expect(jsonData.phone).to.eql(\"+1111111111\");",
               "});",
               ""
             ],
@@ -192,7 +192,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"email\": \"otherme@eznd.ru\"\n}",
+          "raw": "{\n    \"email\": \"otherme@mail.ru\"\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -279,7 +279,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "http://arch.homework"
+      "value": "arch.homework:30614"
     },
     {
       "key": "userId",

@@ -20,9 +20,9 @@ func (u User0002) TableName() string {
 func init() {
 
 	users := []User0002{
-		{Username: "user1", FirstName: "User", LastName: "One", Email: "1@user.com", Phone: "+1"},
-		{Username: "user2", FirstName: "User", LastName: "Two", Email: "2@user.com", Phone: "+2"},
-		{Username: "user3", FirstName: "User", LastName: "Three", Email: "3@user.com", Phone: "+3"},
+		{Username: "j.smith", FirstName: "James", LastName: "Smith", Email: "j.smith@mail.com", Phone: "+11111"},
+		{Username: "j.johnson", FirstName: "John", LastName: "Johnson", Email: "j.johnson@mail.com", Phone: "+22222"},
+		{Username: "r.williams", FirstName: "Robert", LastName: "Williams", Email: "r.williams@mail.com", Phone: "+33333"},
 	}
 
 	mx := &gormigrate.Migration{
