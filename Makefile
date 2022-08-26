@@ -1,5 +1,5 @@
 build:
-	docker build -f docker/Dockerfile . -t eznd/otus-msa-hw2:latest
+	docker build -f docker/Dockerfile . -t 34234247632/otus-msa-hw2:v1.0
 
 push:
 	docker push eznd/otus-msa-hw2:latest
