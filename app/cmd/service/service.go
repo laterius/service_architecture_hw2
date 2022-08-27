@@ -48,19 +48,19 @@ func main() {
 	api := srv.Group("/api")
 
 	api.Post("/user", postUserHandler.Handle())
-	api.Post("/users", postUserHandler.Handle())
+	api.Post("/users", postUserHandler.Handle()) //дублирует предыдущий ?
 
 	api.Get("/user/:id", getUserHandler.Handle())
-	api.Get("/users/:id", getUserHandler.Handle())
+	api.Get("/users/:id", getUserHandler.Handle()) //дублирует предыдущий ?
 
 	api.Put("/user/:id", putUserHandler.Handle())
-	api.Put("/users/:id", putUserHandler.Handle())
+	api.Put("/users/:id", putUserHandler.Handle()) //дублирует предыдущий ?
 
 	api.Patch("/user/:id", patchUserHandler.Handle())
-	api.Patch("/users/:id", patchUserHandler.Handle())
+	api.Patch("/users/:id", patchUserHandler.Handle()) //дублирует предыдущий ?
 
 	api.Delete("/user/:id", deleteUserHandler.Handle())
-	api.Delete("/users/:id", deleteUserHandler.Handle())
+	api.Delete("/users/:id", deleteUserHandler.Handle()) //дублирует предыдущий ?
 
 	srv.Get("/probe/live", http.RespondOk)
 	srv.Get("/probe/ready", http.RespondOk)

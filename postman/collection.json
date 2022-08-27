@@ -45,13 +45,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/api/users",
+          "raw": "{{baseUrl}}/api/user",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "api",
-            "users"
+            "user"
           ]
         }
       },
@@ -98,13 +98,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/api/users/{{userId}}",
+          "raw": "{{baseUrl}}/api/user/{{userId}}",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "api",
-            "users",
+            "user",
             "{{userId}}"
           ]
         }
@@ -149,13 +149,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/api/users/{{userId}}",
+          "raw": "{{baseUrl}}/api/user/{{userId}}",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "api",
-            "users",
+            "user",
             "{{userId}}"
           ]
         }
@@ -200,13 +200,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/api/users/{{userId}}",
+          "raw": "{{baseUrl}}/api/user/{{userId}}",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "api",
-            "users",
+            "user",
             "{{userId}}"
           ]
         }
@@ -242,13 +242,13 @@
           }
         },
         "url": {
-          "raw": "{{baseUrl}}/api/users/{{userId}}",
+          "raw": "{{baseUrl}}/api/user/{{userId}}",
           "host": [
             "{{baseUrl}}"
           ],
           "path": [
             "api",
-            "users",
+            "user",
             "{{userId}}"
           ]
         }
@@ -279,7 +279,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "arch.homework:30614"
+      "value": "arch.homework:32338"
     },
     {
       "key": "userId",
